@@ -1,0 +1,25 @@
+package com.qcloud.concurrent.forkjoin;
+
+import java.io.File;
+
+public class FileSearch {
+
+	public static void main(String[] args) {
+		search(new File("D:\\"), "BUILDING.txt");
+	}
+
+	public static void search(File file, String filename) {
+		if (file != null && file.listFiles() != null) {
+			for (File f : file.listFiles()) {
+				if (f.isDirectory()) {
+					search(f, filename);
+				} else {
+					if (filename.equals(f.getName())) {
+						System.out.println(file.getName());
+					}
+				}
+			}
+		}
+	}
+
+}

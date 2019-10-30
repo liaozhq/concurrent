@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_d4YrkPq_EemHdrRTtdmn6A" name="model">
+  <elementImport xmi:id="_OiGBkPrAEemHdrRTtdmn6A">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_OiGBkfrAEemHdrRTtdmn6A">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+  </elementImport>
+  <elementImport xmi:id="_OiGBkvrAEemHdrRTtdmn6A">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+  </elementImport>
+  <elementImport xmi:id="_OiGBk_rAEemHdrRTtdmn6A">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+  </elementImport>
+  <elementImport xmi:id="_OiGBlPrAEemHdrRTtdmn6A">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+  </elementImport>
+  <elementImport xmi:id="_OiGooPrAEemHdrRTtdmn6A">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+  </elementImport>
+  <elementImport xmi:id="_OiGoofrAEemHdrRTtdmn6A">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+  </elementImport>
+  <elementImport xmi:id="_OiGoovrAEemHdrRTtdmn6A">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+  </elementImport>
+  <elementImport xmi:id="_OsTtgPrAEemHdrRTtdmn6A">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_o0AroPq_EemHdrRTtdmn6A" name="NewInterface1">
+    <ownedAttribute xmi:id="_vDN_4Pq_EemHdrRTtdmn6A" name="var1" visibility="public"/>
+    <ownedOperation xmi:id="_zDleAPq_EemHdrRTtdmn6A" name="getBarrier" visibility="public">
+      <ownedParameter xmi:id="_zDleAfq_EemHdrRTtdmn6A" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_IX8McPrAEemHdrRTtdmn6A" name="getSequences" visibility="public">
+      <ownedParameter xmi:id="_IX8McfrAEemHdrRTtdmn6A" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Iqn34PrAEemHdrRTtdmn6A" name="halt" visibility="public">
+      <ownedParameter xmi:id="_Iqn34frAEemHdrRTtdmn6A" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_I7aF4PrAEemHdrRTtdmn6A" name="m3" visibility="public">
+      <ownedParameter xmi:id="_I7aF4frAEemHdrRTtdmn6A" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_JQZecPrAEemHdrRTtdmn6A" name="m4" visibility="public">
+      <ownedParameter xmi:id="_JQZecfrAEemHdrRTtdmn6A" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+</uml:Model>

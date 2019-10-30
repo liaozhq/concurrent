@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.qcloud.concurrent.forkjoin.MainTest.Fibonacci"/>
+<fullyQualifiedTypeName name="java.util.concurrent.RecursiveTask"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.qcloud.concurrent.forkjoin.SumSplit.SqlitTask"/>
+<fullyQualifiedTypeName name="com.sun.corba.se.impl.orbutil.closure.Future"/>
+<fullyQualifiedTypeName name="java.util.concurrent.RecursiveAction"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ForkJoinTask"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ForkJoinPool"/>
+<fullyQualifiedTypeName name="com.qcloud.concurrent.forkjoin.FileSearch.SearchTask"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

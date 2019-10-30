@@ -1,0 +1,42 @@
+package com.qcloud.concurrent.forkjoin;
+
+import java.io.File;
+import java.util.concurrent.ForkJoinPool;
+import java.util.concurrent.RecursiveAction;
+
+public class FileSearch {
+
+	public static void main(String[] args) {
+		ForkJoinPool pool = new ForkJoinPool();
+		SearchTask task = new SearchTask("D:\\", "BUILDING.txt");
+	    pool.shutdown();
+	}
+
+	public static class SearchTask extends RecursiveAction {
+
+		private File f;
+
+		private String name;
+
+		public SearchTask(String path, String name) {
+			this.f = new File(path);
+			System.out.println(this.f.listFiles().length);
+			this.name = name;
+		}
+
+		@Override
+		protected void compute() {
+			System.out.println(this.f.listFiles()[0].getName());
+			for (File file : this.f.listFiles()) {
+				System.out.println(file.getName());
+				if (file.isDirectory()) {
+					(new SearchTask(file.getPath(), this.name)).fork();
+				} else {
+					if(name.equals(file.getName())) {
+						System.out.println(file.getPath());
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_d5hUAPq_EemHdrRTtdmn6A">
+  <modelElement href="model.uml#_d4YrkPq_EemHdrRTtdmn6A"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_o0Cg0Pq_EemHdrRTtdmn6A" name="NewInterface1">
+    <modelElement href="model.uml#_o0AroPq_EemHdrRTtdmn6A"/>
+    <visualProperties xmi:id="_o0Cg0fq_EemHdrRTtdmn6A" position="33.0,28.0" size="294.0,-1.0"/>
+    <visibility xmi:id="_o0Cg0vq_EemHdrRTtdmn6A" label="+"/>
+    <attributes xmi:id="_vDQcIPq_EemHdrRTtdmn6A" name="var1">
+      <modelElement href="model.uml#_vDN_4Pq_EemHdrRTtdmn6A"/>
+      <visualProperties xmi:id="_wFeHEPq_EemHdrRTtdmn6A"/>
+      <visibility xmi:id="_vDQcIfq_EemHdrRTtdmn6A" label="+"/>
+      <cardinality xmi:id="_vDQcIvq_EemHdrRTtdmn6A" label="1" max="1" min="1"/>
+    </attributes>
+    <operations xmi:id="_zDmsIPq_EemHdrRTtdmn6A" name="getBarrier">
+      <modelElement href="model.uml#_zDleAPq_EemHdrRTtdmn6A"/>
+      <visibility xmi:id="_zDmsIfq_EemHdrRTtdmn6A" label="+"/>
+      <cardinality xmi:id="_zDmsIvq_EemHdrRTtdmn6A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zDmsI_q_EemHdrRTtdmn6A">
+        <modelElement href="model.uml#_zDleAfq_EemHdrRTtdmn6A"/>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_IX8zgPrAEemHdrRTtdmn6A" name="getSequences">
+      <modelElement href="model.uml#_IX8McPrAEemHdrRTtdmn6A"/>
+      <visibility xmi:id="_IX8zgfrAEemHdrRTtdmn6A" label="+"/>
+      <cardinality xmi:id="_IX8zgvrAEemHdrRTtdmn6A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IX8zg_rAEemHdrRTtdmn6A">
+        <modelElement href="model.uml#_IX8McfrAEemHdrRTtdmn6A"/>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Iqoe8PrAEemHdrRTtdmn6A" name="halt">
+      <modelElement href="model.uml#_Iqn34PrAEemHdrRTtdmn6A"/>
+      <visibility xmi:id="_Iqoe8frAEemHdrRTtdmn6A" label="+"/>
+      <cardinality xmi:id="_Iqoe8vrAEemHdrRTtdmn6A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Iqoe8_rAEemHdrRTtdmn6A">
+        <modelElement href="model.uml#_Iqn34frAEemHdrRTtdmn6A"/>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_I7as8PrAEemHdrRTtdmn6A" name="m3">
+      <modelElement href="model.uml#_I7aF4PrAEemHdrRTtdmn6A"/>
+      <visibility xmi:id="_I7as8frAEemHdrRTtdmn6A" label="+"/>
+      <cardinality xmi:id="_I7as8vrAEemHdrRTtdmn6A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_I7as8_rAEemHdrRTtdmn6A">
+        <modelElement href="model.uml#_I7aF4frAEemHdrRTtdmn6A"/>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JQaFgPrAEemHdrRTtdmn6A" name="m4">
+      <modelElement href="model.uml#_JQZecPrAEemHdrRTtdmn6A"/>
+      <visibility xmi:id="_JQaFgfrAEemHdrRTtdmn6A" label="+"/>
+      <cardinality xmi:id="_JQaFgvrAEemHdrRTtdmn6A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JQaFg_rAEemHdrRTtdmn6A">
+        <modelElement href="model.uml#_JQZecfrAEemHdrRTtdmn6A"/>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

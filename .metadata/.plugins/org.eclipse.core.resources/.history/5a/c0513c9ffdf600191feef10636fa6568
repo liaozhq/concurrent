@@ -1,0 +1,23 @@
+package com.qcloud.concurrent.forkjoin;
+
+import java.io.File;
+
+public class FileSearch {
+
+	public static void main(String[] args) {
+
+	}
+
+	public static void search(File file, String filename) {
+		for (File f : file.listFiles()) {
+			if (f.isDirectory()) {
+				search(f, filename);
+			} else {
+				if(filename.equals(f.getName())) {
+					
+				}
+			}
+		}
+	}
+
+}

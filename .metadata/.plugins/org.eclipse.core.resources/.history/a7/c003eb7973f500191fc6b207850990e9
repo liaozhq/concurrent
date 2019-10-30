@@ -1,0 +1,51 @@
+package com.qcloud.concurrent.forkjoin;
+
+import java.util.List;
+import java.util.concurrent.ForkJoinPool;
+import java.util.concurrent.RecursiveTask;
+
+public class SumSplit {
+	
+	public static void main(String[] args) {
+		ForkJoinPool pool = new ForkJoinPool();
+		
+	
+	}
+	
+	public static class SqlitTask extends RecursiveTask<Long>{
+		
+		List<Long> lists;
+		
+		long start;
+		
+		long end;
+		
+		public SqlitTask (List<Long> lists, long start, long end){
+			
+			this.lists = lists;
+			
+			this.start = start;
+			
+			this.end = end;
+		}
+		
+		@Override
+		protected Long compute() {
+			
+			if(this.end - this.start <= 10) {
+				long result = 0;
+				for(long i = this.start; i <= this.end ; i++) {
+					result += this.lists.get(Integer.parseInt(String.valueOf(i)));
+				}
+				return result;
+			}else {
+				long middle = (this.start+this.end)/2;
+				SqlitTask leftTask = new SqlitTask(this.lists, this.start, middle);
+				SqlitTask rightTask = new SqlitTask(this.lists, middle+1, this.end);
+				leftTask.fork();
+			    rightTask.fork();
+			    return leftTask.join() + rightTask.join();
+			}
+		}
+	}
+}

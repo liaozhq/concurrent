@@ -1,0 +1,9 @@
+package com.qcloud.concurrent.forkjoin;
+
+public class MainTest {
+	
+	public static void main(String[] args) {
+		ForkJoinPool pool = new ForkJoinPool();
+	}
+
+}
